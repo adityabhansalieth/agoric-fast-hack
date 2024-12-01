@@ -30,6 +30,7 @@ With ** AgoLinks**, we've developed a feature that converts blockchain-based act
 <img width="778" alt="image" src="https://github.com/user-attachments/assets/db2382bd-09d9-40a2-a921-daaee5ae8b55">
 
 **6. Truesplit Contracts:**
+<img width="860" alt="image" src="https://github.com/user-attachments/assets/3da7a36d-f956-4d01-a70e-d74eb19468b9">
 
 <img width="671" alt="image" src="https://github.com/user-attachments/assets/2ed2b5e5-d7cd-4e03-9def-be0acf0378b9">
 
