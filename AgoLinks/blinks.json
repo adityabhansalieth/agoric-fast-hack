@@ -1,0 +1,123 @@
+{
+    "short_name": "AgoLinksApp",
+    "name": "AgoLinks Decentralized Actions",
+    "description": "AgoLinks Application Example using decentralized transactions across Web3.",
+    "categories": ["finance", "productivity", "utilities", "web3"],
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://pbs.twimg.com/profile_images/1846897640677822470/8g6-quYE_400x400.jpg",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+      },
+      {
+        "src": "https://pbs.twimg.com/profile_images/1846897640677822470/8g6-quYE_400x400.jpg",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "https://example.com/screenshot1.png",
+        "sizes": "640x480",
+        "type": "image/png",
+        "label": "Smart Contract Execution Page"
+      },
+      {
+        "src": "https://example.com/screenshot2.png",
+        "sizes": "1280x720",
+        "type": "image/png",
+        "label": "DeFi Dashboard"
+      }
+    ],
+    "start_url": "/?source=web3_manifest",
+    "scope": "/app",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#0a0a0a",
+    "background_color": "#ffffff",
+    "lang": "en-US",
+    "dir": "ltr",
+    "permissions": [
+      "geolocation",
+      "notifications",
+      "clipboard-write",
+      "camera",
+      "microphone"
+    ],
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=com.AgoLinks.app",
+        "id": "com.AgoLinks.app"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "Send Tokens",
+        "url": "/send?token=ETH",
+        "icons": [{ "src": "/icons/shortcut-send.png", "sizes": "96x96" }]
+      },
+      {
+        "name": "View Wallet",
+        "url": "/wallet",
+        "icons": [{ "src": "/icons/shortcut-wallet.png", "sizes": "96x96" }]
+      },
+      {
+        "name": "Check Gas Fees",
+        "url": "/gas",
+        "icons": [{ "src": "/icons/shortcut-gas.png", "sizes": "96x96" }]
+      }
+    ],
+    "splash_screens": [
+      {
+        "src": "/splash/splash-640x1136.png",
+        "sizes": "640x1136",
+        "type": "image/png",
+        "density": "2.0"
+      },
+      {
+        "src": "/splash/splash-750x1334.png",
+        "sizes": "750x1334",
+        "type": "image/png",
+        "density": "2.0"
+      }
+    ],
+    "display_override": ["standalone", "fullscreen"],
+    "languages": {
+      "en": {
+        "name": "AgoLinks Web3 Actions",
+        "description": "A decentralized dApp using AgoLinks to bring Web3 to any website."
+      }
+    },
+    "features": {
+      "supports_iframes": true,
+      "iframe_url": "/embedded?action=connect_wallet",
+      "web3_enabled": true,
+      "wallet_connect": true,
+      "blockchain": "Ethereum",
+      "supported_tokens": ["ETH", "USDC", "DAI"],
+      "smart_contracts": [
+        {
+          "contract_name": "TokenSwap",
+          "address": "0x123456789abcdef",
+          "abi_url": "/contracts/TokenSwapABI.json"
+        }
+      ],
+      "decentralized_identity": {
+        "enabled": true,
+        "providers": ["Ceramic", "DID"]
+      },
+      "default_network": "mainnet",
+      "fallback_network": "ropsten",
+      "gas_fee_estimation": true
+    }
+  }
+  
