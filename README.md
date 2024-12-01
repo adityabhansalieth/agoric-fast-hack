@@ -23,8 +23,10 @@ With ** AgoLinks**, we've developed a feature that converts blockchain-based act
 
 **5. Shareable Link:**
    - The Blockchain Blink is now ready to be shared with a single click. It is fully optimized for social media, ensuring a clean and informative visual preview that makes it easy for others to understand the Blockchain action. This allows the community to share insights, highlight transactions, and promote Blockchain’s growing ecosystem with minimal effort.
+<img width="778" alt="image" src="https://github.com/user-attachments/assets/db2382bd-09d9-40a2-a921-daaee5ae8b55">
 
 **6. Truesplit Contracts:**
+
 <img width="671" alt="image" src="https://github.com/user-attachments/assets/2ed2b5e5-d7cd-4e03-9def-be0acf0378b9">
 
 
